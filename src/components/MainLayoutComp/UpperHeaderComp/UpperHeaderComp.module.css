@@ -1,0 +1,6 @@
+.upperHeaderCompContainer {
+    display: flex;
+    height: 6rem;
+    width: 100%;
+    background-color: green;
+}
