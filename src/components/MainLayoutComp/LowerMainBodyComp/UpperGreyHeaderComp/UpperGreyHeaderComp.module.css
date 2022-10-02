@@ -1,0 +1,29 @@
+.upperGreyHeaderCompContainer {
+  display: flex;
+  min-height: 5rem;
+  background-color: #f7f8fb;
+  width: 100%;
+  justify-content: center;
+}
+
+.leftSideContainer {
+  display: flex;
+  height: 100%;
+  width: 15rem;
+  background-color: lightgreen;
+}
+
+.rightSideContainer {
+  display: flex;
+  height: 100%;
+  width: 15rem;
+  background-color: pink;
+}
+
+.centeredInnerDataContainer {
+  display: flex;
+  height: 100%;
+  width: 80%;
+  background-color: orange;
+  justify-content: space-between;
+}

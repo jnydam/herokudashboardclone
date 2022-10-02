@@ -1,6 +1,48 @@
 .upperHeaderCompContainer {
-    display: flex;
-    height: 6rem;
-    width: 100%;
-    background-color: green;
+  display: flex;
+  min-height: 4rem;
+  width: 100%;
+  /* background-color: green; */
+  justify-content: space-between;
+}
+
+.leftSideContainer {
+  display: flex;
+  height: 100%;
+  width: 15rem;
+  /* background-color: red; */
+  align-items: center;
+}
+
+.middleContainer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  /* background-color: grey; */
+  width: 30rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightSideContainer {
+  display: flex;
+  height: 100%;
+  width: 10rem;
+  /* background-color: purple; */
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.headerInputStyle {
+  display: flex;
+  height: 65%;
+  width: 100%;
+  padding-left: 0.5rem;
+  border-style: none;
+  border: 1px solid #cfd7e6;
+  outline-style: none;
+  /* background-color: aquamarine; */
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-family: inherit;
 }
