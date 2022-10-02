@@ -9,14 +9,38 @@
 
 .searchBarRowContainer {
   display: flex;
-  height: 4rem;
+  min-height: 4rem;
   width: 80%;
-  background-color: chocolate;
+  /* background-color: chocolate; */
+  align-items: center;
 }
 
 .projectListContainer {
   display: flex;
   height: 100%;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   width: 80%;
+  flex-direction: column;
+}
+
+.searchBarInputContainer {
+  display: flex;
+  height: 60%;
+  width: 17rem;
+  border-style: none;
+  outline-style: none;
+  background-color: white;
+  border: 1px solid #cfd7e6;
+  border-radius: 0.3rem;
+  font-family: inherit;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.innerInputContainer {
+  display: flex;
+  border-style: none;
+  outline-style: none;
+  font-family: inherit;
+  width: 100%;
 }

@@ -1,12 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import MainLayoutComp from './components/MainLayoutComp/MainLayoutComp';
+import React from "react";
+import "./App.css";
+import MainLayoutComp from "./components/MainLayoutComp/MainLayoutComp";
 
 function App() {
-  return (
-    <MainLayoutComp></MainLayoutComp>
-  );
+  return <MainLayoutComp></MainLayoutComp>;
 }
 
 export default App;

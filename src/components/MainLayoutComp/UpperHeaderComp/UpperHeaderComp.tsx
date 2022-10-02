@@ -3,7 +3,6 @@ import React from "react";
 import styles from "./UpperHeaderComp.module.css";
 
 import mainHIcon from "../../../assets/leftherokuhicon.png";
-import upDownIcon from "../../../assets/updownicon.png";
 import herokuHeaderTextIcon from "../../../assets/herokuheadertext.png";
 import ninjaIcon from "../../../assets/ninjaavataricon.png";
 import nineGridIcon from "../../../assets/ninegridicon.png";
@@ -21,6 +20,7 @@ const UpperHeaderComp: React.FC = (props) => {
           src={mainHIcon}
         ></img>
         <img
+          alt="heroku header text icon"
           style={{
             marginLeft: "0.3rem",
             height: "1.5rem",

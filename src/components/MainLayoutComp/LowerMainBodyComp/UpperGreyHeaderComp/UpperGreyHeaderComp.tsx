@@ -40,6 +40,7 @@ const UpperGreyHeaderComp: React.FC = (props) => {
             <span
               style={{
                 marginLeft: "0.5rem",
+                fontSize: "1rem",
               }}
             >
               New
